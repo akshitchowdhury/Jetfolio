@@ -1,0 +1,17 @@
+.heading{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-gallery{
+    margin-top: 50%;    
+    background-image: url('../../assets/doodleBg.jpg');
+    background-repeat: repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    padding: 5%;
+    
+}

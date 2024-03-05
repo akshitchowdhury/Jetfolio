@@ -1,0 +1,123 @@
+.mains-service {
+    /* border: 3pt solid red; */
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .I1 {
+    height: 36rem;
+    width: 43rem;
+  }
+  
+  .C1 {
+    /* border: 3pt solid rebeccapurple; */
+    margin-top: 7%;
+  }
+  
+  .C2 {
+    /* border: 3pt solid rgb(245, 245, 16); */
+    background-image: url('../../assets/SLogo.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70rem;
+    margin-top: 14%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .C2 {
+      background-size: contain;
+    }
+  }
+  
+
+ 
+
+
+
+  .c1,
+  .c2,
+  .c3,
+  .c4 {
+    display: none;
+  }
+
+  .c3{
+    margin-top: -24%;
+  }
+  
+  .c4{
+    margin-top: -24%;
+  }
+  
+  .visible {
+    display: block;
+    animation: fadeIn 1s ease-in;
+    
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .serviceLogo {
+    height: 200px;
+    margin-left: 35%;
+    /* border: 3pt solid firebrick; */
+    
+}
+  
+  .serviceLogo img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .logoButton {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.9s ease;
+    
+}
+  
+  .logoButton:hover {
+    transform: rotate(360deg);
+  }
+  
+
+  .Servie_heading{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+
+  }
+
+  
+  .service-box{
+    overflow: scroll;
+  }
+
+  .Services{
+    margin-top: -7%;
+    background-image: url('../../assets/services.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+  }

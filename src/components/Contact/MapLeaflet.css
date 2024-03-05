@@ -1,0 +1,28 @@
+.custom-map-container {
+   
+    float: right;
+    margin-top: 0px;
+    margin-right: 10%;
+    
+    border-radius: 15px; /* Adjust the border-radius value for smoother edges */
+    overflow: hidden; /* Hide overflow content for perfect rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+  }
+  /* w-full md:w-4/5 lg:w-3/4 xl:w-5/6 h-96 */
+  .map-box{
+    
+    height: 570px;
+    
+    width: 80%;
+    
+    margin-top: 2rem;
+  }
+/*  
+  w-full lg:w-3/4 px-4 lg:p-7 lg:h-96 rounded-lg shadow-2xl bg-white rounded-lg shadow-2xl bg-white */
+
+  /* .main-box{
+    border: 3pt solid black;
+    width: 100%;
+    
+    margin-top: 5%;
+  }  */

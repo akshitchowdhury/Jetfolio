@@ -1,0 +1,104 @@
+/* Add vendor prefixes for browser compatibility if necessary */
+
+/* .relative {
+    position: relative;
+  } */
+  
+  .hover-flip {
+    transform-style: preserve-3d;
+    transition: transform 2s ease;
+    transform: rotateY(180deg);
+  }
+  
+  .hover-flip:hover {
+    transform: rotateY(360deg);
+  }
+  
+  /* Hide and show images based on hover state */
+  .hidden {
+    display: none;
+  }
+  
+  .block {
+    display: block;
+  }
+  
+
+  .about-block{
+    /* border: 3pt solid red; */
+    height : 45rem;
+
+    /* margin-top: 2%; */
+    margin-bottom: -6%;
+    
+  }
+
+  
+  .heading{
+    /* border: 3pt solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+  }
+
+
+.about-content{
+  margin-top: 6%;
+  /* border: 3pt solid gold; */
+}
+
+.about-content p {
+  /* border: 3pt solid black; */
+  transition: transform 0.4s ease, z-index 0s ease 2s, color 2s ease-in;
+  position: relative;
+  z-index: 1;
+}
+
+.about-content p:hover {
+  transform: scale(1.10) translateX(5rem) translateY(-1rem);
+  z-index: 2;
+  color: rgb(149, 149, 223);
+}
+
+@media (max-width: 640px) {
+  .about-content p:hover {
+    transform: none;
+    z-index: 1;
+    color: inherit;
+  }
+}
+
+
+  .about_image{
+    /* border: 3pt solid blue; */
+    margin-top: 12%;
+    
+  }
+
+ 
+  
+  .about2{
+    width: 23rem;
+    height: 30%;
+    border-radius: 5%;
+  }
+
+  .image_block{
+    /* border: 3pt solid purple; */
+    height: 30rem;
+    background-image: url('../../assets/aboutsUs.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 1rem;
+  }
+
+  /* 1508958827 */
+
+  .AboutUS{
+    background-image: url('../../assets/aboutsUsBg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }

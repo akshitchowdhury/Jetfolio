@@ -1,0 +1,59 @@
+.navBlock {
+    width: 100%;
+    height: auto; /* Adjust height to auto for responsiveness */
+    min-height: 120vh; /* Ensure minimum height of 100vh */
+    display: flex;
+   
+    background-size: cover;
+    background-position: center;
+    animation: slideshow 20s infinite; /* Adjust timing and iteration as needed */
+   
+    min-height: 100vh; /* Ensure minimum height of 100vh */
+    display: flex;
+    right: 0;
+    padding: 20px; /* Add padding for spacing */
+   
+    background-attachment: fixed;
+    margin-bottom: -5%;
+    position: relative;
+}
+
+
+@keyframes slideshow {
+    0% {
+        background-image: url('../../assets/jtbg2.jpg');
+    }
+    20% {
+        background-image: url('../../assets/jtbg3.jpg');
+    }
+    40% {
+        background-image: url('../../assets/jtbg4.jpg');
+    }
+    60% {
+        background-image: url('../../assets/jtbg5.jpg');
+    }
+    80% {
+        background-image: url('../../assets/jtbg6.jpg');
+    }
+    100% {
+        background-image: url('../../assets/jtbg7.jpg') 
+    }
+} 
+
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .navBlock {
+        padding: 10px; /* Adjust padding for smaller devices */
+    }
+}
+
+
+.contact{
+    margin-top: 10%;
+}
+
+/* .bar{
+    position: fixed;
+} */
