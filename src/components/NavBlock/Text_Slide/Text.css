@@ -40,15 +40,15 @@
     justify-content: center;
     margin-top: 12rem;
   }
-
+/* 
   .text-box h1{
 
     position: relative;
     font-family: "Poppins", sans-serif;
     color: #f6d8d5;
     font-size: 150px;
-}
-
+} */
+/* 
 .text-box h1::before{
   content: attr(data-text);
   position: absolute;
@@ -66,4 +66,4 @@ h1.text-box h1::after{
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-stroke: 1px #ec2225;
-}
+} */

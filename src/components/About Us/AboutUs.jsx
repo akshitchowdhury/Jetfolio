@@ -20,7 +20,7 @@ const AboutUs = forwardRef((props, ref) => {
     <>
     
     <div className='AboutUS'>
-    <h1 className="heading text-3xl md:text-4xl font-bold mb-4 text-center md:text-left mx-auto">About Us</h1>
+    <h1 data-text = "About Us" className="aboutHead">About Us</h1>
     <div className='about-block' ref={ref}>
       
       <div className="container mx-auto py-8">
@@ -29,8 +29,11 @@ const AboutUs = forwardRef((props, ref) => {
             <div className="float-left mr-8 mb-4">
               <img src={about2} alt="Service Image" className="about2 rounded-md shadow-md" />
             </div>
-            <p className="text-xl text-blue-600 leading-relaxed">
-            Welcome to KK Industries, where precision meets purpose in fabrication and construction solutions. With expertise honed over many years, we're not just building structures; we're crafting communities. From intricate fabrication projects to the construction of essential labour camps, we're committed to excellence at every turn. Trust us to bring your vision to life with quality, efficiency, and a dedication to making a lasting impact. At KK Industries, we're not just building; we're shaping futures. Join us in building a better tomorrow, multiple projects at a time.
+            <p className="text-lg text-blue-600 leading-relaxed">
+           Greetings, web-heads! Welcome to my corner of the web, where every pixel tells a story of heroism, humor, and heart. I'm Miles Morales, your friendly neighborhood Spider-Man, swinging through the digital skyline and fighting the good fight against villains both online and off.
+
+Born and raised in the bustling boroughs of New York City, I've learned a thing or two about power, responsibility, and the occasional rooftop showdown.When I'm not busy thwarting the latest cyber threat, you can find me tinkering with gadgets in my makeshift lab or chilling with my crew in the coolest spots this side of the city.
+
             </p>
           </div>
           <div className="w-full md:w-1/2 h-auto" >
