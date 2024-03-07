@@ -5,6 +5,7 @@ import AboutUs from '../About Us/AboutUs';
 import ContactComponent from '../Contact/ContactComponent';
 import Footer from '../Footer/Footer';
 import { Link } from 'react-router-dom';
+import ost from '../../assets/audio/intro1.mp3'
 
 import './BgNav.css'
 
@@ -21,7 +22,10 @@ const NavBlocks = () => {
   const contactRef = useRef(null);
   const servicesRef = useRef(null);
 
-
+  const clicked = () => {
+    const audio = new Audio(ost); // Load the audio file
+    audio.play(); // Play the audio
+  };
 
 
   // Function to scroll smoothly to a specific section 
@@ -34,7 +38,9 @@ const NavBlocks = () => {
       <nav className="bar bg-cover">
 
       <div className="logo flex items-start justify-start px-3 py-2 mx-auto max-w-screen-xl">
-  <img src={mainLogo} alt="logo" />
+      <button onClick={clicked} style={{ border: 'none', background: 'none' }}>
+      <img src={mainLogo} alt="logo" />
+    </button>
   <button className="logo-button" style={{backgroundImage: `url(${mainLogo})` }}></button>
 </div>
 
