@@ -23,7 +23,7 @@ const TextSlideShow = () => {
       {texts.map((item, idx) => (
         <div
           key={item.id}
-          className={`absolute text-3xl font-bold text-center ${
+          className={`absolute text-3xl  text-center ${
             idx === index ? 'animate-' + item.animation : 'hidden'
           }`}
         >

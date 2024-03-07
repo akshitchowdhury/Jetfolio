@@ -31,8 +31,8 @@ const Slideshow = ({ texts, styles, fontStyles }) => {
 
 const Text = () => {
   const texts = [
-    "Building dreams, one stitch at a time.",
-    "Crafting communities, stitching futures.",
+    "With Great Powers",
+    "Comes great responsibilities",
     "Weaving comfort, building resilience.",
     "Where fabric meets foundation, communities thrive.",
     "From fabric to fruition, empowering lives.",
@@ -63,7 +63,7 @@ const Text = () => {
 
   return (
     <div className='text-box'>
-      <h1>
+      <h1 data-text= {texts}>
         <Slideshow texts={texts} styles={styles} fontStyles={fontStyles} />
       </h1>
     </div>

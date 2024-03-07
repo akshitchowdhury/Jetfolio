@@ -34,7 +34,8 @@
     text-decoration: none;
     font-size: 1.1rem;
     margin-left: 20px;
-    font-family: "Gill Sans", sans-serif;
+    font-family: “Comic Sans MS”, “Comic Sans”, cursive;
+    /* font-family: 'THE AMAZING SPIDER-MAN', sans-serif; */
     transition: transform 0.3s ease; /* Added transition property */
     /* border: 3pt solid black; */
     padding: 3px;
@@ -50,10 +51,11 @@
     color: rgb(48, 104, 187);
 } */
 
-.logo img{
+ .logo img {
     width: 5%;
     height: 6%;
     margin-left: -3%;
     border-radius: 60%;
-}
+  }
+   
   

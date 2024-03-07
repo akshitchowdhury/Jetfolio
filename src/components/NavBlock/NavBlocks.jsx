@@ -33,10 +33,11 @@ const NavBlocks = () => {
      <div className='navBlock w-full'>
       <nav className="bar bg-cover">
 
-      <div class="logo flex items-start justify-start px-3 py-2 mx-auto max-w-screen-xl">
-    <img src={mainLogo} alt="logo" />
-    </div>
-  
+      <div className="logo flex items-start justify-start px-3 py-2 mx-auto max-w-screen-xl">
+  <img src={mainLogo} alt="logo" />
+  <button className="logo-button" style={{backgroundImage: `url(${mainLogo})` }}></button>
+</div>
+
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/*  */}
           <div className="link-tab navbar-links flex flex-col md:flex-row md:items-center md:justify-between w-full md:w-auto ">
