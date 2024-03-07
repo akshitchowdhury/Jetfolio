@@ -16,7 +16,7 @@ import f13 from '../../../assets/gallery/kk14.jpg';
 import f14 from '../../../assets/gallery/kk15.jpg';
 import f15 from '../../../assets/gallery/kk16.jpg';
 import f16 from '../../../assets/gallery/kk17.jpg';
-import f17 from '../../../assets/gallery/kk18.jpg';
+// import f17 from '../../../assets/gallery/kk18.jpg';
 import './Card.css'
 const cardsData = [
   { image: f0, description: "Description for card 1", title: "Building the backbone of progress." },
@@ -36,7 +36,7 @@ const cardsData = [
   { image: f14, description: "Description for card 6", title: "Setting new benchmarks in construction for efficient labor camps."},
   { image: f15, description: "Description for card 6", title: "Revolutionizing labor accommodation through advanced fabrication techniques."},
   { image: f16, description: "Description for card 6", title: "Crafting superior living spaces for the workforce with precision fabrication."},
-  { image: f17, description: "Description for card 6", title: "Elevating standards in labor housing through innovative fabrication."},
+  // { image: f17, description: "Description for card 6", title: "Elevating standards in labor housing through innovative fabrication."},
   // { image: f18, description: "Description for card 6", title: "Pioneering solutions for labor accommodation."},
   // { image: f19, description: "Description for card 6", title: "Pioneering solutions for labor accommodation."},
   // { image: f20, description: "Description for card 6", title: "Pioneering solutions for labor accommodation."}, 9980280635--Prashanth

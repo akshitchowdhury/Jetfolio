@@ -13,5 +13,8 @@
     background-size: contain;
     background-attachment: fixed;
     padding: 5%;
+    position: relative;
+    left: 0;
+    right: 0;
     
 }
