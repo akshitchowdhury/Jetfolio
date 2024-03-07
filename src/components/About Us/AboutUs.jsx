@@ -20,7 +20,7 @@ const AboutUs = forwardRef((props, ref) => {
     <>
     
     <div className='AboutUS'>
-    <h1 data-text = "About Us" className="aboutHead">About Us</h1>
+    <h1 data-text = "About Us" className="glitch">About Us</h1>
     <div className='about-block' ref={ref}>
       
       <div className="container mx-auto py-8">

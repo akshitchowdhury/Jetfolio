@@ -55,11 +55,6 @@
   z-index: 1;
 }
 
-.about-content p:hover {
-  transform: scale(1.10) translateX(5rem) translateY(-1rem);
-  z-index: 2;
-  color: rgb(149, 149, 223);
-}
 
 @media (max-width: 640px) {
   .about-content p:hover {
