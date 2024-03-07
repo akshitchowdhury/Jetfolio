@@ -47,11 +47,11 @@ const Card = () => {
   return (
     <div className='card-grid'>
       {cardsData.map((card, index) => (
-        <div key={index} className="max-w-sm rounded overflow-hidden shadow-2xl m-4 card-container" >
+        <div key={index} className="max-w-sm w-full h-64 rounded overflow-hidden shadow-2xl m-4 card-container" >
           <img className="w-full h-64 object-contain" src={card.image} alt={`Card ${index}`} />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">{card.title}</div>
-            {/* <p className="text-gray-700 text-base">{card.description}</p> */}
+            
           </div>
           <div className="px-6 py-4">
             <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"></span>

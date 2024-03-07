@@ -6,9 +6,10 @@
   }
   .card-container {
      /* Added ease for background-color */
-    height: 14%;
-    width: 10%;
+    height: 10%;
+    width: 50px;
     background-image: linear-gradient(to right, black, transparent); /* Set initial background */
+    
   }
   
   .card-container:hover {

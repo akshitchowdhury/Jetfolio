@@ -15,8 +15,9 @@ const urls = [
 const Gallery = forwardRef((props,ref) => {
   return (
     <div className='main-gallery container mx-auto mt-20' ref={ref}>
-  <h2 className="heading text-2xl md:text-3xl lg:text-4xl font-bold mb-4 text-center md:text-left mx-auto">Our Gallery</h2>
-
+  <h1 data-text = "About Me" className="glitch"><span aria-hidden="true">My Gallery</span>
+    My Gallery
+    <span aria-hidden="true">My Gallery</span></h1>
   <br />
   <div className='flex flex-wrap justify-center'>
     <Card/>
